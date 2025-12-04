@@ -3862,6 +3862,20 @@
 			opacity: 1;
 		}
 
+		.video-background video {
+		  width: 100%;
+		  height: 100%;
+		  object-fit: cover;     /* permet de remplir l’espace, comme background-size: cover */
+		}
+
+		.contenu {
+		  position: relative;
+		  z-index: 1;
+		  color: white;
+		  text-align: center;
+		  margin-top: 40vh;
+		}
+		
 /* Footer */
 
 	#footer {
